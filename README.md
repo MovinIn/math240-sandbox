@@ -11,6 +11,7 @@ discrete structures - can be enumerated!
 `induction`
 1. shows some property holds for all items in a discrete structure
 2. used to show program correctness
+
 `recursion`:   
 `program analysis`: big O, big theta, etc. (time complexity!)
 
