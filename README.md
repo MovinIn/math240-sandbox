@@ -14,4 +14,10 @@ discrete structures - can be enumerated!
 
 `recursion`:   
 `program analysis`: big O, big theta, etc. (time complexity!)
+### Propositions
+A `proposition` is a statement that can be either true or false, but not both.   
+$$P \implies Q$$ is `false` if $$P$$ is true, but $$Q$$ is false. Otherwise, $$P \implies Q$$ is `true`.   
+$$P \iff Q$$ means $$P$$ is `T/F` if and only if $$Q$$ is `T/F` respectively. This statement is also logically equivalent to $$(P \implies Q) \land (Q \implies P)$$  
+$$P \land Q$$ is true if and only if $$P$$ is true AND $$Q$$ is true.   
+$$P \lor Q$$ is true if $$P$$ OR $$Q$$ is true.   
 
