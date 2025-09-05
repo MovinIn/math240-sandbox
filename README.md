@@ -14,6 +14,8 @@ discrete structures - can be enumerated!
 
 `recursion`:   
 `program analysis`: big O, big theta, etc. (time complexity!)
+### Axioms
+An `axiom` is a statement that is preconceived to be true.   
 ### Propositions
 A `proposition` is a statement that can be either true or false, but not both.   
 $$P \implies Q$$ is `false` if $$P$$ is true, but $$Q$$ is false. Otherwise, $$P \implies Q$$ is `true`.   
