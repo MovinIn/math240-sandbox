@@ -23,3 +23,15 @@ $$P \iff Q$$ means $$P$$ is `T/F` if and only if $$Q$$ is `T/F` respectively. Th
 $$P \land Q$$ is true if and only if $$P$$ is true AND $$Q$$ is true.   
 $$P \lor Q$$ is true if $$P$$ OR $$Q$$ is true.   
 
+### Division Algorithm
+Let $$x \neq 0$$ and $$y$$ be integers. $$x | y$$ means that there exists an integer $$k$$ such that $$y=kx$$.   
+If $$x | y$$ and $$x | z$$, then $$x | (ky+jz)$$ for any integer $$k$$ and $$j$$.   
+$$x \text{ div } y = \text{floor}(x/y)$$  `// the floored quotient.`  
+Let $$q = x \text{ div } y$$. $$x \text{ mod } y = r$$ such that $$y = qx+r$$, $$0 \le r \ge x-1$$.  
+### Prime factorization
+`relatively prime`: two integers $$x$$ and $$y$$ are relatively prime if the greatest common factor between them is 1.   
+<img width="1083" height="421" alt="image" src="https://github.com/user-attachments/assets/6e6f264b-f752-4a9c-a574-cb110cd491c0" />  
+### floor/ceil
+<img width="736" height="47" alt="image" src="https://github.com/user-attachments/assets/4303bd45-b2a1-451a-806a-5b4a36f25ac1" />
+<img width="808" height="42" alt="image" src="https://github.com/user-attachments/assets/42549ae5-8881-432a-9de5-2a510de3a44d" />
+
