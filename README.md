@@ -22,6 +22,11 @@ $$P \implies Q$$ is `false` if $$P$$ is true, but $$Q$$ is false. Otherwise, $$P
 $$P \iff Q$$ means $$P$$ is `T/F` if and only if $$Q$$ is `T/F` respectively. This statement is also logically equivalent to $$(P \implies Q) \land (Q \implies P)$$  
 $$P \land Q$$ is true if and only if $$P$$ is true AND $$Q$$ is true.   
 $$P \lor Q$$ is true if $$P$$ OR $$Q$$ is true.   
+#### Order of operations
+<img width="131" height="105" alt="image" src="https://github.com/user-attachments/assets/b3264b7c-5ef2-4da2-b403-6b9d7a242055" />
+
+#### Identities
+<img width="1057" height="668" alt="image" src="https://github.com/user-attachments/assets/1bf93b62-e83a-47ad-8ece-a756ddfc448b" />  
 
 ### Division Algorithm
 Let $$x \neq 0$$ and $$y$$ be integers. $$x | y$$ means that there exists an integer $$k$$ such that $$y=kx$$.   
