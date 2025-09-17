@@ -28,15 +28,36 @@ $$P \lor Q$$ is true if $$P$$ OR $$Q$$ is true.
 #### Identities
 <img width="1057" height="668" alt="image" src="https://github.com/user-attachments/assets/1bf93b62-e83a-47ad-8ece-a756ddfc448b" />  
 
-### Division Algorithm
+## Division Algorithm
 Let $$x \neq 0$$ and $$y$$ be integers. $$x | y$$ means that there exists an integer $$k$$ such that $$y=kx$$.   
 If $$x | y$$ and $$x | z$$, then $$x | (ky+jz)$$ for any integer $$k$$ and $$j$$.   
 $$x \text{ div } y = \text{floor}(x/y)$$  `// the floored quotient.`  
 Let $$q = x \text{ div } y$$. $$x \text{ mod } y = r$$ such that $$y = qx+r$$, $$0 \le r \ge x-1$$.  
-### Prime factorization
+## Prime factorization
 `relatively prime`: two integers $$x$$ and $$y$$ are relatively prime if the greatest common factor between them is 1.   
 <img width="1083" height="421" alt="image" src="https://github.com/user-attachments/assets/6e6f264b-f752-4a9c-a574-cb110cd491c0" />  
-### floor/ceil
+## floor/ceil
 <img width="736" height="47" alt="image" src="https://github.com/user-attachments/assets/4303bd45-b2a1-451a-806a-5b4a36f25ac1" />
 <img width="808" height="42" alt="image" src="https://github.com/user-attachments/assets/42549ae5-8881-432a-9de5-2a510de3a44d" />
 
+## Sets
+$$A \cup B \iff \\{ x: x \in A \lor x \in B \\}$$  
+$$ A \cap B \iff \\{x: x \in A \land x \in B \\}$$  
+$$ A \oplus B \iff \\{x: (x \in A \land x \notin B) \lor (x \in B \land x \notin A) $$  
+
+<img width="442" height="44" alt="image" src="https://github.com/user-attachments/assets/fc2e1459-e7cf-4d86-bca4-145e54061fdc" />  
+
+If $$A$$ and $$B$$ are finite sets, then: <img width="205" height="37" alt="image" src="https://github.com/user-attachments/assets/0277e2c5-89c9-496b-ad61-3924e7289cd5" />  
+
+$$A^k$$ is $$A \times A \times A ... \times A$$ $$k$$ times.   
+$$\lambda$$ represents the empty string of length 0.  
+Let $$s$$ and $$t$$ be strings. $$st$$ is $$s$$ and $$t$$ concatenated together. 
+
+<img width="411" height="109" alt="image" src="https://github.com/user-attachments/assets/122f8770-d4ac-4865-b5a6-6eac44b321d2" />  
+<br/>
+<img width="155" height="66" alt="image" src="https://github.com/user-attachments/assets/ebcab929-b716-467f-90fe-fb6651c5f02f" />  
+
+### Set Identities
+<img width="975" height="645" alt="image" src="https://github.com/user-attachments/assets/9e36253b-97b8-4b81-9beb-2e0b878da116" />  
+
+Let $$A = \\{3, 4, \\{1, 2\\}\\}$$. $$\\{1, 2\\} \notin A$$. $$\\{\\{1, 2\\}\\} \in A$$.
