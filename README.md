@@ -61,3 +61,8 @@ Let $$s$$ and $$t$$ be strings. $$st$$ is $$s$$ and $$t$$ concatenated together.
 <img width="975" height="645" alt="image" src="https://github.com/user-attachments/assets/9e36253b-97b8-4b81-9beb-2e0b878da116" />  
 
 Let $$A = \\{3, 4, \\{1, 2\\}\\}$$. $$\\{1, 2\\} \notin A$$. $$\\{\\{1, 2\\}\\} \in A$$.
+
+### Countable Sets
+A `countable set` is countable if each of its members can be mapped to a one-to-one enumeration of the natural numbers.   
+For example, finite sets are countable. The set of all integers is countable. The set of all rational numbers is countable.   
+However, the set of decimal expansions are not countable. For example, the decimal 0.5 cannot be mapped to an index (there are infinite numbers between the decimals 0.0 and 1.0).   
