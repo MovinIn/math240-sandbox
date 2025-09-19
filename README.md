@@ -65,4 +65,22 @@ Let $$A = \\{3, 4, \\{1, 2\\}\\}$$. $$\\{1, 2\\} \notin A$$. $$\\{\\{1, 2\\}\\} 
 ### Countable Sets
 A `countable set` is countable if each of its members can be mapped to a one-to-one enumeration of the natural numbers.   
 For example, finite sets are countable. The set of all integers is countable. The set of all rational numbers is countable.   
-However, the set of decimal expansions are not countable. For example, the decimal 0.5 cannot be mapped to an index (there are infinite numbers between the decimals 0.0 and 1.0).   
+However, the set of decimal expansions are not countable. For example, the decimal 0.5 cannot be mapped to an index (there are infinite numbers between the decimals 0.0 and 1.0).  
+`closed under multiplication/closure`: $$\forall (x,y \in Z) (x*y \in Z)$$
+### Uncountable Sets
+An `uncountable set` is uncountable iff it is NOT countable.
+### Proofs
+Justification vs. Proof - Justification is often handwavey, proofs are often more formal.   
+Often proofs are done with cases (ie. $$k>0$$, $$k<0$$, $$k=0$$).  
+#### Proof by Contradiction
+1. Start with Proposition
+2. Apply Transformations that preserve Truth Value
+3. Eventually reach a tautology or a contradiction
+#### Direct Proof
+1. Start with a Proposition
+2. Assume that it is True
+3. Apply logical steps
+4. Reach a tautology or reach (a=a).
+#### Proof of Propositions
+1. Start with Axioms
+2. Apply transforms until we get to desired proposition.
