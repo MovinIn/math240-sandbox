@@ -69,7 +69,7 @@ However, the set of decimal expansions are not countable. For example, the decim
 `closed under multiplication/closure`: $$\forall (x,y \in Z) (x*y \in Z)$$
 ### Uncountable Sets
 An `uncountable set` is uncountable iff it is NOT countable.
-### Proofs
+## Proofs
 Justification vs. Proof - Justification is often handwavey, proofs are often more formal.   
 Often proofs are done with cases (ie. $$k>0$$, $$k<0$$, $$k=0$$).  
 #### Proof by Contradiction
@@ -84,3 +84,20 @@ Often proofs are done with cases (ie. $$k>0$$, $$k<0$$, $$k=0$$).
 #### Proof of Propositions
 1. Start with Axioms
 2. Apply transforms until we get to desired proposition.
+### Logical Reasoning
+An `argument` is a sequence of propositions, called `hypotheses`, followed by a final proposition, called the `conclusion`.   
+An argument is `valid` if the conclusion is true for every truth assignment that makes every hypothesis true; otherwise, the argument is `invalid`.   
+Let $$h_1$$, $$h_2$$, $$h_n$$ be hypotheses of an argument, and $$c$$ be the conclusion. The argument is valid if $$h_1 \land h_2 \land ... \land h_n \rightarrow c$$ is a tautology. 
+### Rules of Inference
+
+<img width="336" height="837" alt="image" src="https://github.com/user-attachments/assets/a0026499-33ec-49b6-b927-2288dada19cd" />
+
+Example:   
+<img width="934" height="600" alt="image" src="https://github.com/user-attachments/assets/5677d9f6-2538-47b4-9f60-b633a20b4cf5" />  
+
+### Mathamatical definitions
+`parity`: if two numbers are both even or odd, then the numbers have the same parity. Otherwise, the two numbers have opposite parity.  
+`rational #`: $$r$$ is rational if there exists two numbers $$x$$ and $$y$$ such that $$r=\frac{x}{y}$$.
+`prime #`: $$p$$ is prime iff $$p>1$$ and the factors of $$p$$ are $$p$$ and $$1$$.   
+`composite #`: $$c$$ is composite iff $$c>1$$ and there exists an integer $$m$$ such that $$1<m<n$$ and $$m$$ divides $$n$$.   
+
