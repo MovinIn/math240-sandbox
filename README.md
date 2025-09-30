@@ -101,7 +101,7 @@ Example:
 `prime #`: $$p$$ is prime iff $$p>1$$ and the factors of $$p$$ are $$p$$ and $$1$$.   
 `composite #`: $$c$$ is composite iff $$c>1$$ and there exists an integer $$m$$ such that $$1<m<n$$ and $$m$$ divides $$n$$.   
 
-### Sequences
+## Sequences
 
 Geometric
 
@@ -111,5 +111,16 @@ Arithmetic
 
 <img width="857" height="236" alt="image" src="https://github.com/user-attachments/assets/95948f9f-a145-4bba-a0a2-c94354d8ca69" />
 
-
-
+## Induction
+### Standard Induction 
+We use induction to prove some predicate $$P(n)$$ for all $$n \ge h$$.
+1. Prove base case $$P(h)$$.
+2. Assume $$P(k)$$ holds for all $$k \ge h$$ `(Inductive Hypothesis)`
+3. Prove for $$P(k+1)$$ using `(IH)`
+### Strong Induction
+We use strong induction to prove that if $$P(x)$$ holds for some $$x \le k$$, it implies $$P(k+1)$$  
+We use strong induction to prove some predicate $$P(n)$$ holds for all $$n \ge k$$.   
+$$P(x)$$ holds for all $$0 \le x \ge h$$ proves $$P(k+1)$$. 
+1. Prove base cases $$P(0), P(1), \ldots , P(k)$$.
+2. Assume $$(P(0) \land P(1) \land P(2) \ldots \land P(k))$$ holds for every $$k \ge 1$$.
+3. Prove $$(P(0) \land P(1) \land P(2) \ldots \land P(k)) \implies P(k+1)$$ `(Inductive Hypothesis)`
