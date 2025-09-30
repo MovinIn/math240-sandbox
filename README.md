@@ -101,3 +101,15 @@ Example:
 `prime #`: $$p$$ is prime iff $$p>1$$ and the factors of $$p$$ are $$p$$ and $$1$$.   
 `composite #`: $$c$$ is composite iff $$c>1$$ and there exists an integer $$m$$ such that $$1<m<n$$ and $$m$$ divides $$n$$.   
 
+### Sequences
+
+Geometric
+
+<img width="851" height="216" alt="image" src="https://github.com/user-attachments/assets/effbea3b-1684-4c99-8095-e838072a04f1" />  
+
+Arithmetic
+
+<img width="857" height="236" alt="image" src="https://github.com/user-attachments/assets/95948f9f-a145-4bba-a0a2-c94354d8ca69" />
+
+
+
