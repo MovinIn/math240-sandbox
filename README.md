@@ -124,3 +124,5 @@ $$P(x)$$ holds for all $$0 \le x \ge h$$ proves $$P(k+1)$$.
 1. Prove base cases $$P(0), P(1), \ldots , P(k)$$.
 2. Assume $$(P(0) \land P(1) \land P(2) \ldots \land P(k))$$ holds for every $$k \ge 1$$.
 3. Prove $$(P(0) \land P(1) \land P(2) \ldots \land P(k)) \implies P(k+1)$$ `(Inductive Hypothesis)`
+## Algorithms
+
