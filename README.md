@@ -130,4 +130,22 @@ This differs from regular induction because instead of relying on $$P(k) \implie
 1. Prove base case $$P(0)$$.
 2. Assume $$(P(h) \land P(h+1) \land P(h+2) \ldots \land P(k))$$ holds `(Inductive Hypothesis)`
 3. Prove $$(P(h) \land P(h+1) \land P(h+2) \ldots \land P(k)) \implies P(k+1)$$ using `(IH)`
-## Algorithms
+## Algorithms/Programs
+To prove program correctness, we use invariants. If all invariants hold, we can prove program correctness and guarantee termination. 
+### Invariants
+An `invariant` is: a property that holds for the lifetime of the program.
+### Proof
+1. We prove `partial correctness`: for all valid input, if the program terminates, then the program produces the correct output for that input. // $$\forall (x \in validInput) (T(x) \implies C(x))
+3. We prove guaranteed `termination`: The program terminates for all valid input. // $$\forall (x \in validInput) T(x)
+We use induction to prove program correctness (ie. we have a set of invariants that should hold for all $$n \in N^{+}$$ iterations of the process.)
+#### Proving Partial correctness
+1. Assume invariants hold.
+2. Logically conclude that the program, given valid input, must have correct output.
+#### Proving Guaranteed termination
+Check for infinite loops and either prove using direct proof, contrapositive, or by contradiction (using invariants). 
+#### Proving Invariants
+1. Assume valid input and the program terminates.
+2. Let $$P(n)$$: all loop invariants hold when loop condition is tested for the `nth` time. 
+3. Prove $$P(1)$$ holds.
+4. Show $$P(k) \implies P(k+1)$$.
+5. State that by induction, all loop invariants hold when loop condition is tested for the nth iteration such that $$n \in N^{+}$$.
