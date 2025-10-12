@@ -72,15 +72,19 @@ An `uncountable set` is uncountable iff it is NOT countable.
 ## Proofs
 Justification vs. Proof - Justification is often handwavey, proofs are often more formal.   
 Often proofs are done with cases (ie. $$k>0$$, $$k<0$$, $$k=0$$).  
-#### Proof by Contradiction
-1. Start with Proposition
-2. Apply Transformations that preserve Truth Value
-3. Eventually reach a tautology or a contradiction
 #### Direct Proof
-1. Start with a Proposition
-2. Assume that it is True
-3. Apply logical steps
-4. Reach a tautology or reach (a=a).
+1. Assume proposition $$P$$ holds. 
+2. We will now prove $$P \implies Q$$. 
+3. Apply logical steps from $$P$$ to derive $$Q$$. // NOT from $$P \implies Q$$, but from $$P$$. 
+4. State that $$Q$$ holds.
+#### Proof by Contrapositive
+1. State we are proving by contrapositive. "We prove the contrapositive of the statement, that is, $$\neg Q \implies \neg P$$.
+2. We assume $$\neg Q$$. We will now prove $$ \neg Q \implies \neg P$$. //And the rest of the proof follows similarly as direct proof...
+#### Proof by Contradiction
+1. Assume proposition $$\neg P$$ holds.
+2. Use logical steps from $$\neg P$$ to derive `false`, or in other words, a contradiction.
+3. "Therefore, the opposite of our assumption is true, so  by proof by contradiction, $$P$$ holds"
+ 
 #### Proof of Propositions
 1. Start with Axioms
 2. Apply transforms until we get to desired proposition.
