@@ -119,14 +119,12 @@ Arithmetic
 ### Standard Induction 
 We use induction to prove some predicate $$P(n)$$ for all $$n \ge h$$.
 1. Prove base case $$P(h)$$.
-2. Assume $$P(k)$$ holds for all $$k \ge h$$ `(Inductive Hypothesis)`
-3. Prove for $$P(k+1)$$ using `(IH)`
+2. Assume $$P(k)$$ holds `(Inductive Hypothesis)`
+3. Prove $$P(k) \implies P(k+1)$$ using `(IH)`
 ### Strong Induction
-We use strong induction to prove that if $$P(x)$$ holds for some $$x \le k$$, it implies $$P(k+1)$$  
-We use strong induction to prove some predicate $$P(n)$$ holds for all $$n \ge k$$.   
-$$P(x)$$ holds for all $$0 \le x \ge h$$ proves $$P(k+1)$$. 
-1. Prove base cases $$P(0), P(1), \ldots , P(k)$$.
-2. Assume $$(P(0) \land P(1) \land P(2) \ldots \land P(k))$$ holds for every $$k \ge 1$$.
-3. Prove $$(P(0) \land P(1) \land P(2) \ldots \land P(k)) \implies P(k+1)$$ `(Inductive Hypothesis)`
+We use strong induction to prove some predicate $$P(n)$$ for all $$n \ge h$$. 
+This differs from regular induction because instead of relying on $$P(k) \implies P(k+1)$$, we rely on $$P(h) \land P(h+1) \land P(h+2) \ldots P(k) \implies P(k+1)$$.
+1. Prove base case $$P(0)$$.
+2. Assume $$(P(h) \land P(h+1) \land P(h+2) \ldots \land P(k))$$ holds `(Inductive Hypothesis)`
+3. Prove $$(P(h) \land P(h+1) \land P(h+2) \ldots \land P(k)) \implies P(k+1)$$ using `(IH)`
 ## Algorithms
-
