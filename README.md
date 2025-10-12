@@ -84,7 +84,10 @@ Often proofs are done with cases (ie. $$k>0$$, $$k<0$$, $$k=0$$).
 1. Assume proposition $$\neg P$$ holds.
 2. Use logical steps from $$\neg P$$ to derive `false`, or in other words, a contradiction.
 3. "Therefore, the opposite of our assumption is true, so  by proof by contradiction, $$P$$ holds"
- 
+#### Proving an Equivalence
+1. Prove $$P \implies Q$$.
+2. Prove $$Q \implies P$$.
+3. State that $$P \iff Q$$ by definition of biconditional.
 #### Proof of Propositions
 1. Start with Axioms
 2. Apply transforms until we get to desired proposition.
