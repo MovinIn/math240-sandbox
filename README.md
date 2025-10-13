@@ -67,6 +67,10 @@ A `countable set` is countable if each of its members can be mapped to a one-to-
 For example, finite sets are countable. The set of all integers is countable. The set of all rational numbers is countable.   
 However, the set of decimal expansions are not countable. For example, the decimal 0.5 cannot be mapped to an index (there are infinite numbers between the decimals 0.0 and 1.0).  
 `closed under multiplication/closure`: $$\forall (x,y \in Z) (x*y \in Z)$$
+#### Proving a set is countable
+1. Provide an enumeration to the set $$S$$.
+2. Given any index $$i$$, derive the ith term of the enumeration. 
+3. Given any value in set $$S$$, map that value to an index $$i$$ such that $$i \in N^{+}$$. 
 ### Uncountable Sets
 An `uncountable set` is uncountable iff it is NOT countable.
 ## Proofs
