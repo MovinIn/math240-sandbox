@@ -153,3 +153,38 @@ Check for infinite loops and either prove using direct proof, contrapositive, or
 3. Prove $$P(1)$$ holds.
 4. Show $$P(k) \implies P(k+1)$$.
 5. State that by induction, all loop invariants hold when loop condition is tested for the nth iteration such that $$n \in N^{+}$$.
+
+### Structural Induction
+`Foundational Rule`: Base Cases (base valid input).   
+`Constructor Rule`: We take any valid input and create new valid input.   
+#### Proving an Algorithm using Structural Induction
+We prove that every element created from a `foundational rule` using $$n$$ `constructor rules` is valid input using structural induction.   
+1. State that we are proving $$P(n)$$ for all $$n \in S$$ for some set $$S$$.
+2. Show that $$P(n)$$ hold for base cases (foundational rules)
+3. Declare inductive step: Show $$P(n) \implies P(n+1)$$.
+4. Assume $$P(n)$$ holds. Prove $$P(n+1)$$. `//For regular induction. We can also use strong induction if necessary...`
+6. For each constructor rule, prove that $$P(n+1)$$ holds for all cases.
+7. State: Therefore, by structural induction, $$P(n)$$ holds for all $$n \in S$$. 
+### Recursion
+We prove a recursive program is valid by proving partial correctness and that the program terminates. 
+#### Proof of Partial Correctness
+1. Assume that the program terminates. Prove that some recursive algorithm $$R$$ given valid input returns correct output.
+2. Using induction, state that the base case 
+#### Proof of Termination
+### Asymptotic growth of functions (Time Complexity)
+#### Rules about asymptotic growth 
+<img width="669" height="333" alt="image" src="https://github.com/user-attachments/assets/70c9e1e6-994f-4716-9b79-af276f9bc34b" />
+
+#### Def of O notation
+<img width="1101" height="243" alt="image" src="https://github.com/user-attachments/assets/b4407fee-1e15-41b2-977b-64ca9edb0e7c" />
+
+#### Def of $$\Omega$$ notation
+<img width="1192" height="217" alt="image" src="https://github.com/user-attachments/assets/f8a3558f-d349-4daf-9fea-ec278a6b7d8c" />
+
+#### Def of $$\Theta$$ notation
+<img width="815" height="170" alt="image" src="https://github.com/user-attachments/assets/f67265e2-83c5-4b70-bf99-7b827394badf" />
+
+### Recursive Time Complexity
+$$T(n)$$ is the recursive time complexity of an algorithm. This is often denoted equivalent to $$T(f(n)) + \Omega (g(n))$$, where $$f$$ and $$g$$ are functions of n.   
+We find what $$f(n)$$ is by discovering the change in $$n$$ of the next recursive call. For example, if n decreases by 1 in the next call, $$f(n)=n-1$$.   
+We find what $$g(n)$$ is by counting the atomic operations for each recursive call.   
